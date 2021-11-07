@@ -16,8 +16,9 @@ def main():
     # ciphertext = "Pjo mvvqzo aqnjob qi m pyno gv sgzgmlnjmtopqa iwtipqpwpqgz aqnjob kjobo omaj loppob qz mz " \
     #             "mlnjmtop qi smnnoh pg qpi zwsobqa ouwqdmlozp ozabynpoh wiqzc m iqsnlo smpjosmpqaml vwzapqgz mzh " \
     #             "agzdobpoh tmae pg m loppob.".upper()
-    Affine.main(ciphertext)
-    Vigenere.main(ciphertext)
+
+    if Affine.main(ciphertext) is None:
+        Vigenere.main(ciphertext)
 
 
 if __name__ == '__main__':
