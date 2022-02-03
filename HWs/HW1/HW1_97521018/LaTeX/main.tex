@@ -1,0 +1,26 @@
+
+\documentclass[oneside]{book}
+
+\def \CourseName {امنیت سیستم های کامپیوتری }
+\def \Instructor {دکتر ابوالفضل دیانت}
+\def \Semester {نیم‌سال اول سال تحصیلی 1401-1400}
+
+\input{packages}
+\input{commands}
+\input{firstpage}
+
+
+\begin{document}
+\pagenumbering{gobble}
+\pagestyle{headings}
+\maketitle
+\pagenumbering{arabic}
+
+\input{session.tex}
+
+\begin{latin}
+\bibliography{references}  	
+\bibliographystyle{ieeetr}
+\end{latin}
+
+\end{document}
