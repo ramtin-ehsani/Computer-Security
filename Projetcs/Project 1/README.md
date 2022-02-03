@@ -6,6 +6,6 @@ In this project, I have implemented a system using `Python` that is capable of h
 * Detecting English Text
 
 ## Hacking Vigenere:
-* Kasiski examination
-* Frequency analysis
+* Kasiski Examination
+* Frequency Analysis
 * Detecting English Text
