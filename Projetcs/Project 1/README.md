@@ -1,5 +1,5 @@
 # Project 1
-In this project, I have implemented a system using `Python` that is capable of hacking `Affine` and `Vigenere` encrypted cipher texts, without knowing anything about the keys.
+In this project, I have implemented a system using `Python` which is capable of hacking `Affine` and `Vigenere` encrypted ciphertexts without knowing anything about the keys.
 
 ## Hacking Affine:
 * Brute-Force
